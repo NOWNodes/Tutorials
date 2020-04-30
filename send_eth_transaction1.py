@@ -3,7 +3,7 @@ import requests
 import web3
 
 #Create a web3 object with NOWNodes as HTTTPProvider
-w3 = web3.Web3(web3.HTTPProvider("https://eth.nownodes.io/"))
+w3 = web3.Web3(web3.HTTPProvider("https://eth.nownodes.io/?API_key=YOUR_API_KEY"))
 
 #Specify your private key from my_address wallet
 private_key = ""
